@@ -21,9 +21,6 @@ Urban parking spaces are limited. Static pricing leads to underutilization or ov
 
 ---
 
-## 🏗️ Architecture Diagram
-
-```mermaid
 flowchart TD
     A[Parking Lot Input Data] --> B[Feature Extraction]
     B --> C[Demand Estimation Model]
