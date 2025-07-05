@@ -12,19 +12,22 @@ Urban parking spaces are limited. Static pricing leads to underutilization or ov
 
 ## 💻 Tech Stack
 
-- Python 🐍
-- Pandas & NumPy
-- Bokeh (for real-time plotting)
-- FPDF (for report generation)
-- Google Colab (execution)
-- GitHub (submission & collaboration)
+- Python 🐍  
+- Pandas & NumPy  
+- Bokeh (for real-time plotting)  
+- FPDF (for report generation)  
+- Google Colab (execution)  
+- GitHub (submission & collaboration)  
 
 ---
+
+## 🏗️ Architecture Diagram
 
 ```mermaid
 flowchart TD
     A[Parking Lot Input Data] --> B[Feature Extraction]
     B --> C[Demand Estimation Model]
-    C --> D[Price Calculation (Model 1, Model 2)]
-    D --> E[Bokeh Visualization]
-    D --> F[PDF Report]
+    C --> D1[Price Calculation Model 1]
+    C --> D2[Price Calculation Model 2]
+    D1 --> E[Bokeh Visualization]
+    D2 --> F[PDF Report]
